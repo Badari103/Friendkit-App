@@ -1,0 +1,97 @@
+.title{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 285.6px;
+    background-color: #fff;
+    color: rgb(52, 66, 88);
+    border-bottom-color: rgb(232, 232, 232);
+    border-bottom-left-radius: 12px;
+    border-bottom-right-radius: 12px;
+    border-bottom-style: solid;
+    border-bottom-width: 0.8px;
+    border-image-width: 1;
+    border-left-color: #fff;
+    border-left-style: solid;
+    border-left-width: 0.8px;
+    border-right-color: #fff;
+    border-right-width: 0.8px;
+    border-right-style: solid;
+    font-size: 16px;
+    margin-bottom: 8px;
+}
+
+.titleName{
+    justify-self: start;
+    padding-left: 12px;
+
+}
+
+.verticalDots{
+    margin-right: 12px;
+    color:rgb(52, 66, 88) ;
+}
+
+.friendsCard{
+    display: flex;
+    justify-content:space-between;
+    width: 285.6px;
+    align-items: center;
+    background-color: rgb(255, 255, 255);
+    border-color: rgb(232, 232, 232);
+    border-style: none;
+    border-bottom-style: solid;
+    border-bottom-width: 0.8px ;
+    /* border-top-style: solid;
+    border-top-width: 0.8px ;
+    border-left-style: solid;
+    border-left-width: 0.8px ;
+    border-right-style: solid;
+    border-right-width: 0.8px ; */
+    box-shadow: none;
+    /* border-bottom-left-radius: 13.6px;
+    border-bottom-right-radius: 13.6px; */
+    cursor: pointer;
+    margin-bottom: 12px;
+}
+.fri{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+ .friendsImg{
+    border-radius: 50%;
+    height: 44px;
+    margin-right: 10px;
+}
+
+.friendsDescription{
+    display: flex;
+    flex-direction: column;
+    justify-self:start;
+    
+}
+
+.friendsDescription>p{
+    font-size: 14.4px;
+    line-height: 21.6px;
+    color: rgb(57, 58, 79);
+    font-weight: 500;
+    margin-bottom: 0px;
+
+}
+
+.friendsDescription p+p{
+    font-size: 12px;
+    color: rgb(153, 153, 153);
+    font-weight: 400;
+    line-height: 18px;
+    margin-top: 0px;
+}
+
+.favIcon{
+    opacity: 1;
+    /* justify-self: self-end; */
+}
